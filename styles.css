@@ -50,12 +50,12 @@ body{
   outline: none;
   font-size: 15px;
   border-bottom: 1px solid grey;
-  font-weight: 700;
 }
 
 .active, .collapsible:hover {
   background-color: white;
-  color: hsl(14, 88%, 65%);
+  color: black;
+  font-weight: 700;
 }
 
 .collapsible:after {
@@ -73,6 +73,10 @@ body{
   color: hsl(14, 88%, 65%);
 }
 
+
+.faq-box{
+  text-align: left;
+}
 
 
 .content {
